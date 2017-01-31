@@ -1,2 +1,7 @@
 name: minicat-ge
-main:
+main: com.biel.minicat.ge.MinicatGEPlugin
+version: 1.0-SNAPSHOT
+commands:
+  ge:
+    description: Invokes a Game Engine command
+    usage: /ge [command]
